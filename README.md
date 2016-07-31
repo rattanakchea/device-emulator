@@ -20,7 +20,7 @@ Feel free to fork and add extra features.
 
 **Issues**
 - The status bar is only available for iOS type.
-- The display may not be exact size as actual devices.**strong text**
+- The display may not be exact size as actual devices.
 
 
 Technology:
