@@ -8,6 +8,14 @@ $default-display: 320px;
 $device-bazel: 368.134px - $default-display;
 $screen-width: $device-width - $device-bazel;
 
+
+@mixin background-image($uri){
+    background-image: url($uri);
+    background-size: $device-width $device-height;
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+}
+
 body {
     background-color: $grey;
     font-size: 1.2em;
@@ -31,11 +39,8 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("https://creator.ionic.io/img/android-skin.png");
-    background-size: $device-width $device-height;
-    background-position: 50% 0px;
-    background-repeat: no-repeat;
-
+    @include background-image('../img/android-skin.png');
+    
 
     #app-status {
         background-color: $grey;
