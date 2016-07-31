@@ -5,9 +5,9 @@
     var appWrapper = $('div#app-wrapper');
  
     var skinImages = {
-        androidPhone: '../img/android-skin.png',
-        iphone: '../img/iphone-skin.png',
-        ipad: '../img/ipad-skin.png'
+        androidPhone: 'img/android-skin.png',
+        iphone: 'img/iphone-skin.png',
+        ipad: 'img/ipad-skin.png'
     };
 
     var devices = {
