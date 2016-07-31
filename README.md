@@ -26,5 +26,5 @@ Feel free to fork and add extra features.
 Technology:
 - SASS,
 - JQuery, JavaScript
-
+- Image assets were taken from ionic creator sites.
 
